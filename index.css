@@ -1,0 +1,26 @@
+h1{
+    background-color: #e8e3e3ea;
+    text-align: center;
+}
+p{
+    background-color: antiquewhite;
+    border-top: 0.5ch;
+    border-bottom: 0.5ch;
+    border-left: 0.5ch;
+    border-right: 0.5ch;
+    border-style: ridge;
+    border-color: black;
+}
+form{
+    background-image: url(background.webp);
+    background-color: #cccccc;
+    text-align: left;
+    border-top: 0.5ch;
+    border-bottom: 0.5ch;
+    border-left: 0.5ch;
+    border-right: 0.5ch;
+    border-style: ridge;
+    border-color: grey;
+    font-style: normal;
+    font-size: large;
+}

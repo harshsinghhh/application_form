@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Application Form</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <h1>Application Form</h1>
+    <body>
+        <p>
+            <br>
+            Hey, My name is Harsh Kumar. Pusring B.Tech from Techno  International Batanagar.<br>
+            I'm a 3rd year Computer Science and Engineering Student.<br>
+            This is a application form for a clearing a basic concept of html.<br>
+            <br>
+        </p>
+        <form action="google.com">
+            <label for="name">First Name:</label><br>
+            <input type="text" name="first name" required><br>
+            <label for="name">Last Name:</label><br>
+            <input type="text" name="Last name" required><br>
+            <label for="name">Father's Name:</label><br>
+            <input type="text" name="father's name" required><br>
+            <label for="name">Mother's Name:</label><br>
+            <input type="text" name="mother's name" required><br>
+            <label for="age">Age:</label><br>
+            <input type="number" name="Age" min="17" max="60" required><br>
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="date" name="Date Of Birth" required><br><br>
+            <address><b>Gender:</b></address>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="Gender"><br>
+            <label for="transgender">Transgender</label>
+            <input type="radio" name="Gender"><br><br>
+            <label for="contact no.">Contact Number:</label><br>
+            <input type="contact number" name="Contact No." pattern="[1-9]{1}[0-9]{9}" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="Email" required><br>
+            <label for="address">Address:</label><br>
+            <textarea name="address"></textarea><br> <!-- textarea :- for message box -->
+            <label for="blood group">Blood Group:</label>
+            <select name="blood group" name="Blood Group">
+                <option value=""></option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select><br>
+            <address><b>Relationship Status:</b></address>
+            <label for="married">Married</label>
+            <input type="radio" name="Relationship Status"><br>
+            <label for="unmarried">Unmarried</label>
+            <input type="radio" name="Relationship Status"><br>
+            <input type="submit" value="Sumbit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
